@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "gotham rouneded";
+  src: url("./fonts/webfonts/Gotham-Rounded-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "grbold";
+  src: url("./fonts/webfonts/Gotham-Rounded-Bold.woff") format("woff");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.community-area i, .design-area i {
+  color: #000000;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.community-area p, .design-area p, .geatting-started p {
+  font-family: "gotham rouneded";
+  font-size: 12px;
+  line-height: 2em;
+  margin: 10px 0;
+  color: gray;
+}
+
+.headerArea .wellcome-text h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.design-area h3, .geatting-started h3 {
+  color: #16a085;
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  font-family: grbold;
+}
+
+.community-area h4 {
+  color: #373737;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  font-family: grbold;
+  margin-top: 15px;
+}
+
+.headerArea .wellcome-text h5 {
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+
+.design-area .btn, .geatting-started .btn, .headerArea .wellcome-text .btn {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #16a085;
+  padding: 12px 25px;
+  border-radius: 2px;
+  font-size: 9px;
+  letter-spacing: 2px;
+  display: inline-block;
+  transition: 0.4s;
+  border: 1px solid transparent;
+  margin-bottom: 10px;
+}
+
+.design-area .btn:hover, .geatting-started .btn:hover, .headerArea .wellcome-text .btn:hover {
+  background: #FFFFFF;
+  color: #16a085;
+  border: 1px solid #16a085;
+}
+
+.download-area .store form button:first-child, .download-area .apple form button:first-child {
+  text-transform: uppercase;
+  background: #19BD9B;
+  font-weight: bold;
+  padding: 15px 60px 15px 15px;
+  border-radius: 3px 0 0 3px;
+  border: none;
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0;
+  letter-spacing: 2px;
+  float: left;
+}
+
+.download-area .store form button:last-child, .download-area .apple form button:last-child {
+  background: #17A086;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  font-size: 20px;
+  padding: 9px 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.headerArea {
+  background: url("images/header-bg.jpg") no-repeat 0 0/100% 100%;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  padding: 25px 0;
+  width: 100%;
+}
+.headerArea nav {
+  background: transparent;
+}
+.headerArea nav button {
+  background-color: #16a085;
+}
+.headerArea nav button i {
+  color: #000;
+}
+.headerArea ul {
+  margin: 0;
+  padding: 0;
+}
+.headerArea ul li {
+  margin: 0 16px;
+}
+.headerArea ul li a {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid transparent;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+.headerArea ul li a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.headerArea ul li .logo {
+  margin-top: 0;
+  border-bottom: none !important;
+}
+.headerArea ul li .logo :hover {
+  border-bottom: none;
+  background-color: transparent;
+}
+.headerArea ul li .logo img {
+  margin: 0 40px;
+  width: 40px;
+  height: auto;
+}
+.headerArea .wellcome-text {
+  margin-top: 150px;
+  overflow: hidden;
+}
+.headerArea .social-media {
+  overflow: hidden;
+  margin-top: 135px;
+}
+.headerArea .social-media ul {
+  list-style: none;
+}
+.headerArea .social-media ul li {
+  display: inline;
+  margin: 0 10px;
+}
+.headerArea .social-media ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: none !important;
+}
+.headerArea .social-media ul li a:hover {
+  color: #16a085;
+}
+
+.geatting-started {
+  background-color: #f5f6f7;
+  overflow: hidden;
+}
+.geatting-started .hand {
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.design-area .design {
+  max-height: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+.subscribe-area {
+  background: url("images/subscrib-bg.jpg") no-repeat 0 0/100% 100%;
+  width: 100%;
+}
+.subscribe-area .subHeight {
+  margin: 200px 0;
+}
+.subscribe-area h2 {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.subscribe-area form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.subscribe-area form input {
+  background: #ffffff;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #353535;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  float: left;
+}
+.subscribe-area form button {
+  background: #16A085;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+
+.download-area {
+  background-color: #f5f6f8;
+}
+.download-area h2 {
+  color: #373737;
+  font-size: 17px;
+  font-family: grbold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.download-area p {
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #4F5052;
+  font-family: grbold;
+  font-size: 9px;
+}
+.footer-area .credits a {
+  text-decoration: none;
+  color: #474747;
+}
+.footer-area .credits h4:first-child {
+  float: left;
+  border-right: 2px solid #19BD9B;
+}
+.footer-area .credits h4:nth-child(2) {
+  float: left;
+  border-right: 2px solid #19BD9B;
+}
+.footer-area .credits h4:last-child {
+  float: left;
+}
+.footer-area p {
+  color: #474747;
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.footer-area img {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=customStyle.css.map */
